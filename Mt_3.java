@@ -3,7 +3,7 @@ class Person {
     private int age;
     private String address;
     
-    // Getter and Setter methods for name
+    
     public String getName() {
         return name;
     }
@@ -12,7 +12,7 @@ class Person {
         this.name = name;
     }
     
-    // Getter and Setter methods for age
+  
     public int getAge() {
         return age;
     }
@@ -21,7 +21,7 @@ class Person {
         this.age = age;
     }
     
-    // Getter and Setter methods for address
+   
     public String getAddress() {
         return address;
     }
@@ -33,10 +33,10 @@ class Person {
 
 public class  Mt_3 {
     public static void main(String[] args) {
-        // Create an instance of the Person class
+   
         Person person = new Person();
         
-        // Set values for properties using setter methods
+       
         person.setName("John Doe");
         person.setAge(25);
         person.setAddress("123 Main St, City");
